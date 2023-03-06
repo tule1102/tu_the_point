@@ -3,13 +3,14 @@ import AnimatatedAvatar from "../assets/AnimatedAvatar.png"
 import familyChat from "../assets/familyChat.png"
 import CovidFla from "../assets/CovidFla.jpeg"
 import UnderConstruction from "../assets/UnderConstruction.jpg"
+import tu_le_resume from "../assets/Tu_Le_Resume.pdf"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../App.css';
 
 import { Container, Navbar, Nav, Card, Button, Row} from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
     return (
@@ -28,6 +29,9 @@ function App() {
             </Nav.Link>
             <Nav.Link href="mailto:tule1102@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} />
+            </Nav.Link>
+            <Nav.Link href={tu_le_resume} download="Tu_Le_Resume">
+                <FontAwesomeIcon icon={faDownload} />
             </Nav.Link>
           </Nav>
         </Container>
