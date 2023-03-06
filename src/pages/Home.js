@@ -37,7 +37,7 @@ function App() {
           <img src={RVAirbaby} />
         </div>
         <h1 className='min-h-screen text-center flex flex-col justify-center '>Tu Le</h1>
-        <h3 class="text-center">Software Engineer, Serendipituous Data Manager</h3>
+        <h3 class="text-center">Software Engineer, Computer Science Degree '22</h3>
         <p className="description"> 
             Motivated and passionate about Developing Software, Dance, and making an impact wherever I am.  
         </p>
