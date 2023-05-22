@@ -74,11 +74,11 @@ function App() {
             <Card>
             <Card.Img className="cardImages"  src={UnderConstruction} />
                 <Card.Body>
-                    <Card.Title>Under Construction</Card.Title>
+                    <Card.Title>Rank Kings</Card.Title>
                     <Card.Text>
-                    Perpetually working on a side project... 
+                    Preliminary selection system for breakdance events, where each compe;tor is scored by ranking against exis;ng compe;tors without a use or point systems. 
                     </Card.Text>
-                    <Button variant="primary">Github Repo</Button>
+                    <Button href="https://github.com/tule1102/rank_kings" variant="primary">Github Repo</Button>
                 </Card.Body>
             </Card>
             </Row>
