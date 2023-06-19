@@ -78,6 +78,8 @@ function App() {
                     <Card.Text>
                     Preliminary selection system for breakdance events, where each compe;tor is scored by ranking against exis;ng compe;tors without a use or point systems. 
                     </Card.Text>
+                    <iframe width="300" height="168" src="https://www.youtube.com/embed/R4dRC9hHR94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
                     <Button href="https://github.com/tule1102/rank_kings" variant="primary">Github Repo</Button>
                 </Card.Body>
             </Card>
